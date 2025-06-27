@@ -1,4 +1,4 @@
 //#region src/index.d.ts
-declare function myCoolRequire(): string;
+declare function myOptionalChain(): boolean;
 //#endregion
-export { myCoolRequire };
+export { myOptionalChain };

@@ -1,5 +1,5 @@
-# tsdown node protocol repro
+# tsdown optional chaining repro
 
-- target is node12
-- `src/index.ts` imports `node:path`
-- the `dist` javascript files keep the `node:` prefix, making it not work on node 12
+- target is node14
+- `src/index.ts` uses optional chaining
+- the `dist` javascript files remove optional chaining to something equivalent

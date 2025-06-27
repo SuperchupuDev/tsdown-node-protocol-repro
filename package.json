@@ -12,8 +12,8 @@
     "require": "./dist/index.js"
   },
   "devDependencies": {
-    "@types/node": "^22.15.23",
-    "tsdown": "^0.12.4",
+    "@types/node": "^24.0.4",
+    "tsdown": "^0.12.9",
     "typescript": "^5.8.3"
   },
   "engines": {

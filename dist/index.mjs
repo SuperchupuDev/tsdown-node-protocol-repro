@@ -1,15 +1,8 @@
-import { createRequire } from "node:module";
-import { join } from "path";
-
-//#region rolldown:runtime
-var __require = /* @__PURE__ */ createRequire(import.meta.url);
-
-//#endregion
 //#region src/index.ts
-console.log(join("this is a", "path"));
-function myCoolRequire() {
-	return __require.resolve("picomatch");
+function myOptionalChain() {
+	var _process, _process$endsWith;
+	return (_process = process) === null || _process === void 0 || (_process = _process.env) === null || _process === void 0 || (_process = _process.MY_VAR) === null || _process === void 0 || (_process$endsWith = _process.endsWith) === null || _process$endsWith === void 0 ? void 0 : _process$endsWith.call(_process, "yup");
 }
 
 //#endregion
-export { myCoolRequire };
+export { myOptionalChain };
