@@ -1,4 +1,13 @@
 //#region src/index.d.ts
-declare function myOptionalChain(): boolean;
+/*
+this is the best function ever made
+*/
+declare function getValue(): boolean;
+// #region not the best function ever
+declare function getAnotherOne(): boolean;
+/* node:coverage ignore next */
+declare function andOneMore(): boolean;
+// hey
+declare function hey(): string;
 //#endregion
-export { myOptionalChain };
+export { andOneMore, getAnotherOne, getValue, hey };

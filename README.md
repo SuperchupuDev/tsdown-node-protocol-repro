@@ -1,5 +1,6 @@
-# tsdown optional chaining repro
+# tsdown comments in isolated declarations repro
 
-- target is node14
-- `src/index.ts` uses optional chaining
-- the `dist` javascript files remove optional chaining to something equivalent
+- `isolatedDeclarations` is set to `true`
+- `src/index.ts` has comments
+- `dist/index.d.mts` also has comments
+- it doesn't if `isolatedDeclarations` is set to `false`

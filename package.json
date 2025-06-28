@@ -1,5 +1,5 @@
 {
-  "name": "tsdown-node-protocol-repro",
+  "name": "tsdown-repro",
   "private": true,
   "scripts": {
     "build": "tsdown"
